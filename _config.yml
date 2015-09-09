@@ -1,14 +1,24 @@
-# Site settings
-title: Adnan Basar
-email: adnan@andromedalabs.org
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://adnbsr.com" # the base hostname & protocol for your site
-twitter_username: adnanbasarr
-github_username:  adnbsr
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-# Build settings
-markdown: kramdown
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Adnan Basar
+tagline:          'Python and Android Developer'
+description:      'Blog about <i>#Android, #Python and #Javascript</i> Development.  <a href="https://twitter.com/adnanbasarr" target="_blank">@adnanbasarr</a>.'
+url:              http://adnbsr.com
+
+author:
+  name:           'adnbsr'
+  url:            https://twitter.com/adnanbasarr
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/adnbsr
