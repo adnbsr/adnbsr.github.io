@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
   html {
@@ -79,8 +79,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "Dosis", serif;
+  font-size: 2.50rem;
 }
 
 /* Sidebar nav */
@@ -247,4 +247,19 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+
+.face {
+    background-image: url('https://avatars2.githubusercontent.com/u/1239935?v=3&s=460');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border: 4px solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    vertical-align: middle;
 }
