@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rogue
 
 # Permalinks
 permalink:        pretty
@@ -16,6 +16,9 @@ author:
   url:            https://twitter.com/adnanbasarr
 
 paginate:         5
+
+plugins:
+        - jekyll-paginate
 
 # Custom vars
 version:          2.0.0
