@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      rouge
+pygments:         true
 
 # Permalinks
 permalink:        pretty
@@ -22,6 +22,3 @@ version:          2.0.0
 
 github:
   repo:           https://github.com/adnbsr
-
-plugins:
-    - jekyll-paginate          
